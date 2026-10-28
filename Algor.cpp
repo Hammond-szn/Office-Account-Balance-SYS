@@ -23,7 +23,7 @@ int main() {
     double TOTAL_GROSS, TOTAL_WIN;
 
     // You can safely type numbers with commas here (e.g., 10,000.50)
-    cout << "ENTER TOTAL GROSS: ";
+    cout << "ENTER YOUR TOTAL GROSS: ";
     cin >> TOTAL_GROSS;
 
     // Net = gross minus 35% of gross
@@ -66,7 +66,7 @@ int main() {
     return 0;
     else if (BTO > 0)
     cout << "====================================\n";
-     cout << "WELCOME TO CASH BALANCE section" << endl;
+     cout << "WELCOME TO THE CASH BALANCE section" << endl;
     double cash_balance;
   
     cout << "Enter your cash at hand: ";
@@ -81,7 +81,9 @@ int main() {
     }
      else if (cash_balance = BTO) {
         
-    cout << " GOOD JOB "  << endl;
+    cout << " GOOD JOB! "  << endl;
+    ELSE {
+        cout << "Invalid input. Please enter a valid cash balance." << endl;
     }
 
 
